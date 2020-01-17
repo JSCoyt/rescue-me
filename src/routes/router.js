@@ -7,6 +7,7 @@ import Content from "../components/View/Content";
 import Header from "../components/View/Header";
 import Navigator from "../components/View/Navigator";
 import Paperbase from "../components/View/Paperbase";
+import Users from "../components/View/Users";
 // import Menu from "./../components/menu";
 // import Menu1 from "./../components/menu1";
 
@@ -20,6 +21,7 @@ const Router = () => {
             <Route path ="/Header" component={Header} />
             <Route path ="/Navigator" component={Navigator} />
             <Route path ="/Paperbase" component={Paperbase} />
+            <Route path ="/Users" component={Users}/>
             {/* <Route path="/login" component={} />
             <Route path="/menu" component={Menu} />
             <Route path="/menu1/:name" component={Menu1} /> */}

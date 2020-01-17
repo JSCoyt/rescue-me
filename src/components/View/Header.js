@@ -64,7 +64,7 @@ function Header(props) {
             <Grid item xs />
             <Grid item>
               <Link className={classes.link} href="#" variant="body2">
-                Documentación
+                Notificaciones
               </Link>
             </Grid>
             <Grid item>

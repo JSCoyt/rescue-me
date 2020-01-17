@@ -12,8 +12,6 @@ import IconButton from "@material-ui/core/IconButton";
 import { withStyles } from "@material-ui/core/styles";
 import SearchIcon from "@material-ui/icons/Search";
 import RefreshIcon from "@material-ui/icons/Refresh";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import { CheckBox } from "material-ui-icons";
 
 const styles = theme => ({
   paper: {
@@ -130,15 +128,6 @@ function Content(props) {
                 autoComplete="edad"
               />
             </Grid>
-            {/* <Grid item xs={3} className={classes.paper} component="h4" variant ="h5">
-              Sexo:
-            </Grid>
-            <Grid item xs={3}>
-              <FormControlLabel
-              control={<CheckBox value="M" color="primary"/>}
-              label="M"
-              />
-            </Grid> */}
 
           </Grid>
         </form>
